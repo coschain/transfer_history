@@ -68,7 +68,7 @@ Authorization |  Verification code
 ### 2.Get all the transfer records of an account in a block
 --------
 URL| test env: http://qa.exchangeservice.contento.io/api/getTransferHistoryByBlock  online env: https://exchangeservice.contento.io/api/getTransferHistoryByBlock
-----|------|----
+--------- | --------|
 HTTP method | POST(x-www-form-urlencoded)  
 Return Format  | JSON  
 Authorization |  Verification code

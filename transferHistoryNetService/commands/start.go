@@ -37,7 +37,7 @@ func startNetService(cmd *cobra.Command, args []string)  {
 		os.Exit(1)
 	}
 	//load config json file
-	err = config.LoadExchangeTransferHistoryConfig("../../../transfer_history.json")
+	err = config.LoadExchangeTransferHistoryConfig("../../transfer_history.json")
 	if err != nil {
 		fmt.Println("TransferHistoryNetService:fail to load config file ")
 		os.Exit(1)

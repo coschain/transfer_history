@@ -5,6 +5,7 @@ import (
 	"errors"
 	"fmt"
 	"io/ioutil"
+	"path/filepath"
 	"sync"
 )
 
@@ -61,6 +62,8 @@ func LoadExchangeTransferHistoryConfig(path string) error {
 		return nil
 	}
 	var config serviceConfig
+	p,_ := filepath.Abs(path)
+	fmt.Printf("config path is %v \n", p)
 	cfgJson,err := ioutil.ReadFile(path)
 	if err != nil {
 		fmt.Printf("LoadExchangeTransferHistoryConfig:fail to read json file, the error is %v \n", err)
