@@ -62,9 +62,12 @@ func LoadExchangeTransferHistoryConfig(path string) error {
 		return nil
 	}
 	var config serviceConfig
-	p,_ := filepath.Abs(path)
+	p,err := filepath.Abs(path)
+	if err != nil {
+		return err
+	}
 	fmt.Printf("config path is %v \n", p)
-	cfgJson,err := ioutil.ReadFile(path)
+	cfgJson,err := ioutil.ReadFile(p)
 	if err != nil {
 		fmt.Printf("LoadExchangeTransferHistoryConfig:fail to read json file, the error is %v \n", err)
 		return err
