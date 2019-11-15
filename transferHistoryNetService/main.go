@@ -2,7 +2,7 @@ package main
 
 import (
 	"github.com/coschain/cobra"
-	"github.com/exchange-service/transfer_history/transferHistoryNetService/commands"
+	"github.com/transfer_history/transferHistoryNetService/commands"
 	"os"
 
 )

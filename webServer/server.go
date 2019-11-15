@@ -3,8 +3,8 @@ package webServer
 import (
 	"context"
 	"fmt"
-	"github.com/exchange-service/transfer_history/config"
-	"github.com/exchange-service/transfer_history/logs"
+	"github.com/transfer_history/config"
+	"github.com/transfer_history/logs"
 	"golang.org/x/sync/errgroup"
 	"net"
 	"net/http"

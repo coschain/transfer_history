@@ -1,4 +1,4 @@
-module github.com/exchange-service/transfer_history
+module github.com/transfer_history
 
 require (
 	github.com/coschain/cobra v0.0.0-20181106130408-77bf516f51a1

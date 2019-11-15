@@ -2,7 +2,7 @@ package logs
 
 import (
 	"fmt"
-	"github.com/exchange-service/transfer_history/config"
+	"github.com/transfer_history/config"
 	"github.com/sirupsen/logrus"
 	"os"
 	"path/filepath"
