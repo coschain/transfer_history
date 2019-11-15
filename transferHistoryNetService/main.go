@@ -2,9 +2,8 @@ package main
 
 import (
 	"github.com/coschain/cobra"
-	"github.com/transfer_history/transferHistoryNetService/commands"
 	"os"
-
+	"transfer_history/transferHistoryNetService/commands"
 )
 
 var rootCmd = &cobra.Command{

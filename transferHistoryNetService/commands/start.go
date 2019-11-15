@@ -3,14 +3,14 @@ package commands
 import (
 	"fmt"
 	"github.com/coschain/cobra"
-	"github.com/transfer_history/config"
-	"github.com/transfer_history/db"
-	"github.com/transfer_history/logs"
-	"github.com/transfer_history/webServer"
 	"github.com/prometheus/common/log"
 	"os"
 	"os/signal"
 	"syscall"
+	"transfer_history/config"
+	"transfer_history/db"
+	"transfer_history/logs"
+	"transfer_history/webServer"
 )
 
 var svEnv string

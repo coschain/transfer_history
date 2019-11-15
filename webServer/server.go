@@ -3,13 +3,13 @@ package webServer
 import (
 	"context"
 	"fmt"
-	"github.com/transfer_history/config"
-	"github.com/transfer_history/logs"
 	"golang.org/x/sync/errgroup"
 	"net"
 	"net/http"
 	"sync"
 	"time"
+	"transfer_history/config"
+	"transfer_history/logs"
 )
 
 const (

@@ -4,13 +4,13 @@ import (
 	"errors"
 	"fmt"
 	"github.com/coschain/contentos-go/app/plugins"
-	"github.com/transfer_history/config"
-	"github.com/transfer_history/logs"
-	"github.com/transfer_history/types"
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/jinzhu/gorm"
 	"strconv"
 	"time"
+	"transfer_history/config"
+	"transfer_history/logs"
+	"transfer_history/types"
 )
 
 var (
