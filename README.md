@@ -4,7 +4,7 @@
 
 ### 1.Get all the transfer records of an account starting from a block
 --------
- URL| test env: http://qa.exchangeservice.contento.io/api/getTransferHistory  online env: https://exchangeservice.contento.io/api/getTransferHistory
+ URL| test env: http://qa.exchangeservice.contentos.io/api/getTransferHistory  online env: https://exchangeservice.contentos.io/api/getTransferHistory
 --------- | --------|
 HTTP method | POST(x-www-form-urlencoded)  
 Return Format  | JSON  
@@ -67,7 +67,7 @@ Authorization |  Verification code
 
 ### 2.Get all the transfer records of an account in a block
 --------
-URL| test env: http://qa.exchangeservice.contento.io/api/getTransferHistoryByBlock  online env: https://exchangeservice.contento.io/api/getTransferHistoryByBlock
+URL| test env: http://qa.exchangeservice.contentos.io/api/getTransferHistoryByBlock  online env: https://exchangeservice.contentos.io/api/getTransferHistoryByBlock
 --------- | --------|
 HTTP method | POST(x-www-form-urlencoded)  
 Return Format  | JSON  
